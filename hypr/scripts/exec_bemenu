@@ -1,0 +1,4 @@
+#!/bin/sh
+killall bemenu-run
+bemenu-run --no-exec
+

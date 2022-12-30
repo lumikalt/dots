@@ -119,7 +119,7 @@ export TERM='xterm-kitty'
 export BROWSER="firefox"
 
 # cargo-mommy
-export CARGO_MOMMYS_LITTLE="girl/pet"
+export CARGO_MOMMYS_LITTLE="girl"
 export CARGO_MOMMYS_PRONOUNS="her"
 export CARGO_MOMMYS_ROLES="mommy"
 
@@ -174,6 +174,7 @@ set -p PATH $HOME/.local/share/ponyup/bin
 set -p PATH $HOME/.local/bin
 set -p PATH $HOME/go/bin
 set -p PATH $HOME/.emacs.d/bin
+set -p PATH $HOME/.local/share/coursier/bin
 
 alias ivy="rlwrap ivy"
 alias luajit="rlwrap luajit"
@@ -183,8 +184,8 @@ alias icat="kitty +kitten icat"
 
 
 
-# Generate a random, 32-charactered password
-abbr -a -g genpass 'openssl rand -base64 64'
+# Generate a random, 36-charactered password
+abbr -a -g genpass "pwgen -c -n -y -s 32 | head"
 
 abbr -a -g cargo "cargo mommy"
 

@@ -9,7 +9,7 @@ include colors.conf
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-font_family  FuraCode Nerd Font
+font_family  OpenDyslexicMono for Powerline
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -21,12 +21,12 @@ bold_italic_font auto
 #: families that have many weight variants like Book, Medium, Thick,
 #: etc. For example::
 
-font_family  FuraCode Nerd Font
+font_family  OpenDyslexicMono for Powerline
 #:     bold_font        Operator Mono Medium
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 10.0
+font_size 12
 
 #: Font size (in pts)
 
@@ -558,7 +558,7 @@ window_margin_width 10.0
 
 #: The foreground and background colors
 
-#background_opacity 1.0
+background_opacity 0.7
 
 #: The opacity of the background. A number between 0 and 1, where 1 is
 #: opaque and 0 is fully transparent.  This will only work if
@@ -670,6 +670,7 @@ window_margin_width 10.0
 #: Advanced {{{
 
 # shell .
+shell_integration                   enabled
 
 #: The shell program to execute. The default value of . means to use
 #: whatever shell is set as the default shell for the current user.
@@ -677,7 +678,7 @@ window_margin_width 10.0
 #: --login to ensure that the shell starts in interactive mode and
 #: reads its startup rc files.
 
-# editor .
+editor nvim
 
 #: The console editor to use when editing the kitty config file or
 #: similar tasks. A value of . means to use the environment variables
@@ -748,7 +749,7 @@ allow_remote_control yes
 #: functionality is a security risk as it means that any program, even
 #: one running on a remote server via SSH can read your clipboard.
 
-# term xterm-kitty
+term xterm-kitty
 
 #: The value of the TERM environment variable to set. Changing this
 #: can break many terminal programs, only change it if you know what
@@ -890,7 +891,7 @@ allow_remote_control yes
 
 #: For example::
 
-#:     map ctrl+f>2 set_font_size 20
+font_size 12
 
 # kitty_mod ctrl+shift
 
@@ -1062,18 +1063,18 @@ allow_remote_control yes
 #: You can change the font size for all top-level kitty OS windows at
 #: a time or only the current one.
 
-# map kitty_mod+equal     change_font_size all +2.0
-# map kitty_mod+minus     change_font_size all -2.0
-# map kitty_mod+backspace change_font_size all 0
+font_size 12
+font_size 12
+font_size 12
 
 #: To setup shortcuts for specific font sizes::
 
-#:     map kitty_mod+f6 change_font_size all 10.0
+font_size 12
 
 #: To setup shortcuts to change only the current OS window's font
 #: size::
 
-#:     map kitty_mod+f6 change_font_size current 10.0
+font_size 12
 #: }}}
 
 #: Select and act on visible text {{{

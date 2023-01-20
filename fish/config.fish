@@ -176,6 +176,10 @@ set -p PATH $HOME/go/bin
 set -p PATH $HOME/.emacs.d/bin
 set -p PATH $HOME/.local/share/coursier/bin
 
+set XDG_CURRENT_DESKTOP Hyprland
+set XDG_SESSION_TYPE    wayland
+set XDG_SESSION_DESKTOP Hyprland
+
 alias ivy="rlwrap ivy"
 alias luajit="rlwrap luajit"
 alias rakudocli="rlwrap rakudo"

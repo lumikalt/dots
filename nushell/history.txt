@@ -1,0 +1,102 @@
+cd ~
+clear
+ls -d -a | sort-by size
+rm -rf .android/ Android/ .cache/
+sudo rm -rf .android/ Android/ .cache/
+ls
+hell 
+help
+ps | where cpu > 0
+cd code
+ls -da | sort-by size
+cd king
+cd /mnt/kingston/BACKUP/OUTLOOK/
+ls
+ls -da | sort-by size
+..
+ls -da **/* | sort-by size
+ls -a **/* | sort-by size
+mkd t
+mkdir t
+cd t
+..
+cd NHL/HLO/
+ls
+ls -a | sort-by name
+ls -a | sort-by size
+cd 14-PP-Art-13.1.c-EL_PD/
+ls -a | sort-by size
+cd `6_Instalações e Equipamentos Eléctricos e de Comunicações (EL)_PD/`
+ls 
+cd `2_Não Editável/`
+ls
+..
+cd 1_Editável/
+ls
+cd *heli
+cd *heli*
+cd 6.15
+cd `6.15_EL15_Iluminação e sinalização de heliporto/`
+ls
+kitten -icat *
+kitten --icat *
+kitten +icat *
+kitten icat *
+kitty +kitten icat *
+ls
+..
+ls
+cd `6.8_EL08_Rede de Comunicações/`
+ls
+kitty +kitten icat *
+cat HLO-EP-EL-8-C-DG-01.dwg
+openscad HLO-EP-EL-8-A-00-100-01_06.dwg
+yay -S freecad
+freecad HLO-EP-EL-8-C-DG-01.dwg
+ls
+...
+....
+..
+rm -rf t/
+ls
+ls | shuffle
+ls | count
+ls | count 1
+ls | count 11
+math 1+1
+math
+math e
+1+1
+calc
+cal
+ls | get name
+ls | get name,size
+ls | get name size
+ls | get name size | join 
+ls | get name size | join -
+ls | get name size | join 
+ls | get name size | merge
+ls | get name size | merge 1
+ls | get name size | merge
+ls | get name size
+cd code
+ls
+mkcd
+ls 
+cd code
+ls
+ls -a
+ls -ad
+..
+ls -ad
+ls
+clear
+ls
+ls -a
+ls
+cd /mnt/kingston/
+ls
+mkdir .config
+ls
+ls -a
+date

@@ -1,2 +1,3 @@
-2023/01/01-21:22:09.014 e836 Creating DB /home/lumi/.config/Ride-4.5/Local Storage/leveldb since it was missing.
-2023/01/01-21:22:09.020 e836 Reusing MANIFEST /home/lumi/.config/Ride-4.5/Local Storage/leveldb/MANIFEST-000001
+2023/01/28-23:01:46.047 1f6aa Reusing MANIFEST /home/lumi/.config/Ride-4.5/Local Storage/leveldb/MANIFEST-000001
+2023/01/28-23:01:46.047 1f6aa Recovering log #3
+2023/01/28-23:01:46.047 1f6aa Reusing old log /home/lumi/.config/Ride-4.5/Local Storage/leveldb/000003.log 

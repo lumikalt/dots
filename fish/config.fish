@@ -174,6 +174,7 @@ set -p PATH $HOME/.local/share/ponyup/bin
 set -p PATH $HOME/.local/bin
 set -p PATH $HOME/go/bin
 set -p PATH $HOME/.emacs.d/bin
+set -p PATH $HOME/.config/emacs/bin
 set -p PATH $HOME/.local/share/coursier/bin
 
 set XDG_CURRENT_DESKTOP Hyprland
@@ -200,5 +201,4 @@ set CHROME_EXECUTABLE /usr/bin/chromium
 set -gx PNPM_HOME "/home/lumi/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
-
 

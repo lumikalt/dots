@@ -100,3 +100,30 @@ mkdir .config
 ls
 ls -a
 date
+ls
+ls | sort-by size
+clear
+ls | sort-by size
+ls
+clear
+ls
+mkdir ~/.cache/starship
+starship init nu | save ~/.cache/starship/init.nu
+$nu.env-path
+nvim $nu.env-path
+nvim $nu.config-path
+nu
+config nu
+nvim $nu.env-path
+clear
+nu
+config nu
+ls
+clear
+ls
+mpv
+mpv **
+mpv *
+ls
+file architecture-blue-build-162557-1200x800.jpg
+ls

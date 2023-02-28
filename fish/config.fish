@@ -187,6 +187,8 @@ alias rakudocli="rlwrap rakudo"
 
 alias icat="kitty +kitten icat"
 
+abbr -a -g yay "paru"
+
 
 
 # Generate a random, 36-charactered password

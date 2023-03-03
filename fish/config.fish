@@ -28,10 +28,15 @@ set -g fish_color_escape $pink
 set -g fish_color_autosuggestion $comment
 
 # Completion Pager Colors
-set -g fish_pager_color_progress $comment
-set -g fish_pager_color_prefix $cyan
-set -g fish_pager_color_completion $foreground
-set -g fish_pager_color_description $comment
+set -g fish_pager_color_progress $gray
+set -g fish_pager_color_prefix $mauve
+set -g fish_pager_color_completion $peach
+set -g fish_pager_color_description $gray
+
+set -g man_blink -o $teal
+set -g man_bold -o $pink
+set -g man_standout -b $gray
+set -g man_underline -u $blue
 
 
 
@@ -43,6 +48,7 @@ if status --is-interactive
   starship init fish | source
   zoxide init fish --cmd cd | source
   source ~/.local/share/omf/pkg/colorman/init.fish
+  thefuck --alias | source &
 end
 
 ## Functions

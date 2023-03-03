@@ -1,5 +1,24 @@
 #!/usr/bin/bash
 
+# Variables
+config=/home/lumi/.config/hypr/
+scripts=$config/scripts/
+
+# Notifications
 dunst &
-hyprpaper &
+
+# Waybar
+$scripts/launch_waybar &
+$scripts/tools/dynamic &
+
+# Wallpaper
+$scripts/wall $config/wallpapers/cloud.png &
+
+# Effects
+$scripts/rgb &
+
+# Misc
 udiskie --tray &
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
+wl-clipboard-history -t &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

@@ -12,7 +12,7 @@ $scripts/launch_waybar &
 $scripts/tools/dynamic &
 
 # Wallpaper
-$scripts/wall $config/wallpapers/cloud.png &
+$scripts/wall $config/wallpapers/train.jpg &
 
 # Effects
 $scripts/rgb &

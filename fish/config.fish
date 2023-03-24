@@ -182,6 +182,8 @@ set -p PATH $HOME/go/bin
 set -p PATH $HOME/.emacs.d/bin
 set -p PATH $HOME/.config/emacs/bin
 set -p PATH $HOME/.local/share/coursier/bin
+set -p PATH $HOME/.cabal/bin
+set -p PATH $HOME/.ghcup/bin
 
 set XDG_CURRENT_DESKTOP Hyprland
 set XDG_SESSION_TYPE    wayland

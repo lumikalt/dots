@@ -127,3 +127,72 @@ mpv *
 ls
 file architecture-blue-build-162557-1200x800.jpg
 ls
+ls 
+ls -d
+cd Downloads/
+ls
+rm -rf yiffOS-0.1.1-x86-64.img
+ls -ad | order-by size
+ls -ad | sort-by size
+rm -rf CERN
+rm -rf `atividades consolidação.zip` terra-Linux-x86_64-6184586.tar.xz The-Manga-Guide-To-Cryptography.pdf Baba.Is.You-jc141/ Baba.Is.You.v474.rar 
+..
+ls -ad | sort-by size
+rm -rf .bak
+cd rustup
+çs
+ls
+ls .rustup/
+ls -ad .rustup | sort-by size
+ls -ad .rustup/toolchains/ | sort-by size
+cd .rustup/toolchains/
+ls
+rm -rf stable-x86_64-unknown-linux-gnu/
+rm -rf nightly-2022-08-27-x86_64-unknown-linux-gnu/
+...
+ls -ad | sort-by size
+rm -rf .wine
+rm -rf Nextcloud/ nexus/
+cd .stack
+ls -ad | sort-by size
+cd pantry
+ls
+...
+rm -rf .stack/ .cabal/ .ghcup/
+ls
+ls -ad | sort-by size
+cd .local
+ls
+ls -ad | sort-by size
+cd share
+ls
+ls -ad | sort-by size
+rm -rf pnpm/
+rm -rf Google/
+rm -rf coursier/
+ls
+..
+ls
+cd state
+ls
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd opt
+ls
+rm -rf tor-browser/
+ls
+..
+ls
+ls -ad | sort-by size
+rm -rf .gradle/ .cache/ .jabba/ .java/ Music/ 
+rm -rf ghq/
+ls
+..
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd media
+ls
+cd lumi/
+ls

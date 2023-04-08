@@ -48,7 +48,7 @@ if status --is-interactive
   starship init fish | source
   zoxide init fish --cmd cd | source
   source ~/.local/share/omf/pkg/colorman/init.fish
-  thefuck --alias | source &
+  thefuck --alias | source
 end
 
 ## Functions
@@ -184,6 +184,7 @@ set -p PATH $HOME/.config/emacs/bin
 set -p PATH $HOME/.local/share/coursier/bin
 set -p PATH $HOME/.cabal/bin
 set -p PATH $HOME/.ghcup/bin
+set -p PATH $HOME/.cargo/bin/
 
 set XDG_CURRENT_DESKTOP Hyprland
 set XDG_SESSION_TYPE    wayland

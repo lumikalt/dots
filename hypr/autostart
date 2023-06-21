@@ -6,14 +6,25 @@ config=/home/lumi/.config/hypr/
 # Notifications
 dunst &
 
+# Lock
+swayidle -w \
+  timeout 300 "swaylock -f -c 000000" \
+  timeout 315 "hyprctl dispatch dms off" resume "hyprctl dispatch dms on" \
+  before-sleep "swaylock -f -c 000000" &
+
 # Waybar
 waybar &
+
+# Visuals
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' &
+gsettings set org.gnome.desktop.interface gtk-theme 'Arc-Dark' &
+gsettings set org.gnome.desktop.interface icon-theme 'Arc' &
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
 
 # Wallpaper
 hyprpaper &
 
 # Misc
 udiskie --tray &
-dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
 wl-clipboard-history -t &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

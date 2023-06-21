@@ -3,7 +3,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Cartograph CF Nerd Font, monospace;
+    font-family: "JetBrains Mono", monospace;
     font-weight: bold;
     font-size: 14px;
     min-height: 0;
@@ -64,7 +64,7 @@ tooltip label {
 #custom-lock,
 #custom-power {
     background: @surface0;
-    margin: 7px 3px 0px 7px;
+    margin: 5px 0px 5px 5px;
     padding: 10px 5px 10px 5px;
     border-radius: 1rem;
 }
@@ -87,10 +87,4 @@ tooltip label {
 
 #battery.warning:not(.charging) {
   color: @red;
-}
-
-#custom-power {
-    border-radius: 1rem;
-    color: @red;
-    margin-bottom: 1rem;
 }

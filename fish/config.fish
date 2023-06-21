@@ -213,3 +213,7 @@ set -gx PNPM_HOME "/home/lumi/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
+# vita
+export VITASDK=/usr/local/vitasdk
+set -p PATH $VITASDK/bin
+# vita end

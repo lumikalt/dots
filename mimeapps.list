@@ -2,8 +2,18 @@
 image/jpeg=feh.desktop
 text/html=firefox.desktop
 image/png=feh.desktop
+audio/flac=vlc.desktop
+audio/mpeg=vlc.desktop
+audio/x-dff=userapp-ffplay-0N9B61.desktop
 
 [Added Associations]
 image/jpeg=feh.desktop;
 text/html=firefox.desktop;
 image/png=feh.desktop;
+text/plain=xed.desktop;
+application/xhtml+xml=firefox.desktop;
+audio/flac=vlc.desktop;
+audio/mpeg=vlc.desktop;
+audio/x-mpegurl=vlc.desktop;visual-studio-code-insiders.desktop;micro.desktop;
+application/xspf+xml=micro.desktop;
+audio/x-dff=userapp-ffplay-0N9B61.desktop;

@@ -196,3 +196,16 @@ cd media
 ls
 cd lumi/
 ls
+ls -ad | sort-by size
+ls -ad | sort-by size | get lua
+ls -ad | sort-by size | find lua
+file lua
+ls -ad | sort-by size | find lua
+ls -ad | sort-by size
+ls -ad
+ls -ad | sort-by type
+ls -ad
+unzip `XCOM - Enemy Unknown (Europe) (Pl,Ru).zip`
+mv `XCOM - Enemy Unknown (Europe) (Pl,Ru).iso` /run/media/lumi/610ca472-ed60-41ca-ad3c-58f867d511b1/ps3/
+cd /run/media/lumi/610ca472-ed60-41ca-ad3c-58f867d511b1/ps3/
+ls
